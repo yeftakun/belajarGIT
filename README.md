@@ -12,8 +12,6 @@ Daftar tugas / branch
 Daftar perintah GiT
 
 ```
-git clone https://github.com/yeftakun/belajarGIT.git
-
 git checkout -b Tugas-git
 git add .
 git commit -m 'add file Tugas-git.txt'
