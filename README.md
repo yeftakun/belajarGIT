@@ -11,11 +11,59 @@ Daftar tugas / branch
 
 Daftar perintah GiT
 
-1. `git branch Tugas-baru` membuat branch dengan nama Tugas-baru.
-2. `git checkout Tugas-baru` beralih ke branch Tugas-baru.
-3. `git checkout -b Tugas-baru` membuat dan beralih ke branch Tugas-baru.
-4. `git add Tugas-baru.txt` tambahkan perubahan pada file Tugas-baru.txt ke dalam staging area.
-5. `git commit -m 'komentar'` membuat commit.
-6. `git checkout main` beralih ke branch main
-7. `git merge Tugas-baru` gabungkan perubahan di branch Tugas-baru ke branch yg sedang aktif.
-8. `git push origin main` kirimkan perubahan lokal ke repositori remote (https://github.com/yeftakun/belajarGIT.git).
+```
+git clone https://github.com/yeftakun/belajarGIT.git
+
+git checkout -b Tugas-git
+git add .
+git commit -m 'add file Tugas-git.txt'
+git checkout main
+git merge Tugas-git
+git push origin main
+
+git checkout -b Tugas-html
+git add .
+git commit -m 'add file Tugas-git.txt'
+git checkout main
+git merge Tugas-html
+git push origin main
+
+git checkout -b Tugas-css
+git add .
+git commit -m 'add Tugas-css.txt'
+git checkout main
+git merge Tugas-css
+git push origin main
+
+git checkout -b Tugas-js
+git status
+git add .
+git commit -m 'add Tugas-js.txt'
+git checkout main
+git merge Tugas-js
+git push origin main
+
+git checkout -b Tugas-midProject
+git add .
+git commit -m 'add Tugas-midProject.txt'
+git checkout main
+git merge Tugas-midProject
+git push origin main
+
+git checkout -b Tugas-php
+git status
+git add .
+git commit -m 'add Tugas-php.txt'
+git checkout main
+git merge Tugas-php
+git push origin main
+
+git checkout -b Tugas-finalProject
+git status
+git add .
+git status
+git commit -m 'add Tugas-finalProject.txt'
+git checkout main
+git merge Tugas-finalProject
+git push origin main
+```
